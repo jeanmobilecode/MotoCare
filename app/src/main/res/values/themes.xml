@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MotoCare" parent="Theme.Material3.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/white</item>
+         <item name="colorPrimaryVariant">@color/white</item>
+         <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.MotoCare" parent="Base.Theme.MotoCare" />
+</resources>

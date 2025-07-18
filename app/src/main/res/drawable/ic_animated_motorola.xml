@@ -1,0 +1,45 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="288dp"
+            android:height="288dp"
+            android:viewportWidth="288"
+            android:viewportHeight="288">
+            <group
+                android:name="group"
+                android:pivotX="144"
+                android:pivotY="144">
+                <path
+                    android:name="path"
+                    android:pathData="M 233 143.5 C 233 167.237 223.571 190.002 206.786 206.786 C 190.002 223.571 167.237 233 143.5 233 C 119.763 233 96.999 223.571 80.214 206.786 C 63.429 190.002 54 167.237 54 143.5 C 54 119.763 63.429 96.998 80.214 80.214 C 96.999 63.429 119.763 54 143.5 54 C 167.237 54 190.002 63.429 206.786 80.214 C 223.571 96.998 233 119.763 233 143.5 Z M 143.621 162.232 C 143.612 162.264 143.593 162.293 143.566 162.313 C 143.54 162.334 143.507 162.345 143.474 162.345 C 143.44 162.345 143.408 162.334 143.381 162.313 C 143.355 162.293 143.335 162.264 143.327 162.232 L 118.401 79.587 C 118.392 79.561 118.374 79.538 118.351 79.521 C 118.328 79.505 118.301 79.496 118.273 79.496 C 118.244 79.496 118.217 79.505 118.194 79.521 C 118.171 79.538 118.153 79.561 118.144 79.587 L 85.917 185.303 C 85.854 185.506 85.931 185.606 86.148 185.603 L 91.722 185.524 C 91.911 185.52 92.026 185.426 92.068 185.24 C 93.805 177.634 96.393 169.784 99.832 161.691 C 102.18 156.16 105.894 150.355 111.115 147.403 C 127.836 137.942 138.237 161.061 143.274 172.838 C 143.39 173.111 143.505 173.113 143.621 172.843 C 145.631 168.196 147.867 163.668 150.329 159.259 C 155.955 149.184 166.072 139.981 177.781 148.737 C 182.167 152.015 185.198 157.158 187.299 162.011 C 190.469 169.348 192.99 177.103 194.863 185.277 C 194.916 185.504 195.06 185.618 195.294 185.618 L 200.742 185.618 C 201.011 185.618 201.108 185.49 201.03 185.235 L 168.762 79.529 C 168.754 79.506 168.74 79.485 168.72 79.471 C 168.7 79.456 168.676 79.448 168.651 79.448 C 168.627 79.448 168.603 79.456 168.583 79.471 C 168.563 79.485 168.548 79.506 168.541 79.529 L 143.621 162.232 Z"
+                    android:fillColor="#000000"
+                    android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="scaleX"
+                    android:startOffset="300"
+                    android:duration="400"
+                    android:valueFrom="0"
+                    android:valueTo="0.8"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/overshoot_interpolator"/>
+                <objectAnimator
+                    android:propertyName="scaleY"
+                    android:startOffset="300"
+                    android:duration="400"
+                    android:valueFrom="0"
+                    android:valueTo="0.8"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/overshoot_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
