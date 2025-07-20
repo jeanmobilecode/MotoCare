@@ -13,9 +13,12 @@
         android:theme="@style/Theme.MotoCare"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.MotoCare.MySplash"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.MotoCare.MySplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

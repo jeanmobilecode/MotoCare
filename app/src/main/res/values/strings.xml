@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">MotoCare</string>
+    <string name="take_care_of_your_phone">Take Good Care of Your Phone</string>
+    <string name="essential_tips">Essential tips to extend the lifespan of your Motorola device.</string>
+    <string name="security_first">Security First</string>
+    <string name="protect_your_data">Protect your data using features like biometrics, strong passwords, and regular updates.</string>
+    <string name="moto_gestures">Moto Gestures</string>
+    <string name="learn_how_to_use_motorola">Learn how to use Motorola’s exclusive gestures, like turning on the flashlight or launching the camera quickly.</string>
+    <string name="battery_saving_tips">Battery Saving Tips</string>
+    <string name="optimize_energy">Optimize energy consumption with smart modes and best practices.</string>
+    <string name="usefull_settings">Useful Settings</string>
+    <string name="discover_system_features">Discover system features that make your daily life easier, like Digital Wellbeing and Silent Mode.</string>
 </resources>

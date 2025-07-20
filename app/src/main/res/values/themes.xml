@@ -4,7 +4,17 @@
          <item name="colorPrimary">@color/white</item>
          <item name="colorPrimaryVariant">@color/white</item>
          <item name="android:statusBarColor">@color/white</item>
+         <item name="floatingActionButtonStyle">@style/FloatingActionButtonStyle</item>
     </style>
 
     <style name="Theme.MotoCare" parent="Base.Theme.MotoCare" />
+
+    <style name="FloatingActionButtonStyle" parent="Widget.Design.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/FabShapeStyle</item>
+    </style>
+    
+    <style name="FabShapeStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item  name="cornerSize">50%</item>
+    </style>
+    
 </resources>
