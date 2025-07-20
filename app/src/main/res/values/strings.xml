@@ -10,4 +10,8 @@
     <string name="optimize_energy">Optimize energy consumption with smart modes and best practices.</string>
     <string name="usefull_settings">Useful Settings</string>
     <string name="discover_system_features">Discover system features that make your daily life easier, like Digital Wellbeing and Silent Mode.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open toolbar</string>
+    <string name="navigation_drawer_close">Close toolbar</string>
 </resources>

@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/ic_tips"
+            android:title="Tips"
+            />
+
+        <item
+            android:id="@+id/nav_gestures"
+            android:icon="@drawable/ic_moto_gestures"
+            android:title="Moto Gestures"
+            />
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="Device Info"
+
+            />
+
 
 </menu>
