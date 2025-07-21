@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         setupViews()
         setupViewPager()
         setupFabBehavior()
-
     }
 
     private fun setupViews() {
