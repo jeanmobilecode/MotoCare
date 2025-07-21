@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.motocare.HomeActivity
 import com.example.motocare.databinding.FragmentHomeBinding
+import com.example.motocare.utils.setCardClickListener
 
 
 class FragmentHome : Fragment() {
@@ -26,11 +27,6 @@ class FragmentHome : Fragment() {
         return binding.root
     }
 
-    private fun setCardClickListener(cardView: View, fragment: Fragment) {
-        cardView.setOnClickListener {
-            (activity as? HomeActivity)?.replaceFragment(fragment)
-        }
-    }
 
     override fun onDestroy() {
         super.onDestroy()
